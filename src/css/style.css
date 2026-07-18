@@ -21,3 +21,46 @@ header > p {
     margin-top: 10px;
     font-size: 20px;
 }
+
+#Fundo-Flor {
+    background-image: url(../assets/FlorBackground.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.estrofe {
+    background-color: white;
+    padding: 80px 40px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.795);
+    margin-bottom: 5px;
+}
+
+.estrofe > p {
+    font-size: 23px;
+}
+
+#ultima-estrofe {
+    background-color: white;
+    padding: 80px 40px;
+}
+
+#ultima-estrofe > p {
+    font-size: 23px;
+}
+
+#Fundo-Carta {
+    background-image: url(../assets/CartaBackground.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.estrofe-transparente {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    font-size: 23px;
+    padding: 10px 5px;
+    margin: 35px 0px 35px 25px ;
+}
