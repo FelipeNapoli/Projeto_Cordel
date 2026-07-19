@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 * {
     margin: 0px;
     padding: 0px;
@@ -63,4 +64,12 @@ header > p {
     font-size: 23px;
     padding: 10px 5px;
     margin: 35px 0px 35px 25px ;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 21px;
 }
